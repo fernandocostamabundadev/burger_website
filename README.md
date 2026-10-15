@@ -16,3 +16,4 @@ Abra `index.html` num navegador. A seleção de artigos é apenas uma demonstra�
 O projeto foi inspirado no tutorial [Responsive Burger Website](https://youtu.be/PA-V-GxYa9w), de [Bedimcode](https://www.youtube.com/@Bedimcode).
 # burger_website
 # burger_website
+# burger_website
