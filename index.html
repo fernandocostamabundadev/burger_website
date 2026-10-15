@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hambúrgueres suculentos, preparados na hora com ingredientes frescos. Descubra os favoritos da casa.">
+  <meta name="theme-color" content="#211006">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css"><title>Good Mood Burgers — Sabor sem cerimónias</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+  <header class="header" id="header"><nav class="nav container" aria-label="Navegação principal">
+    <a class="nav__logo" href="#home" aria-label="Good Mood Burgers — início"><img src="assets/img/logo-burger.svg" alt=""> Good Mood</a>
+    <div class="nav__menu" id="nav-menu"><ul class="nav__list">
+      <li><a class="nav__link active-link" href="#home">Início</a></li><li><a class="nav__link" href="#recipe">A receita</a></li><li><a class="nav__link" href="#popular">Hambúrgueres</a></li><li><a class="nav__link" href="#delivery">Entrega</a></li><li><a class="nav__link" href="#contact">Contacto</a></li>
+    </ul><button class="nav__close" id="nav-close" type="button" aria-label="Fechar navegação"><i class="ri-close-line" aria-hidden="true"></i></button></div>
+    <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="nav-menu"><i class="ri-menu-line" aria-hidden="true"></i></button>
+  </nav></header>
+  <main class="main" id="main">
+    <section class="home section" id="home"><div class="home__container container grid">
+      <div class="home__data"><span class="eyebrow">Feito para aproveitar</span><h1 class="home__title">Mordida a<br><span>mordida.</span></h1><p class="home__description">Pão tostado, carne suculenta na grelha e ingredientes frescos. O melhor da casa, empilhado no ponto certo.</p><a class="button" href="#popular">Escolha o seu favorito <i class="ri-arrow-down-line" aria-hidden="true"></i></a></div>
+      <div class="home__image"><img src="assets/img/home-burger.png" alt="Hambúrguer acabado de preparar com alface e tomate"><img class="home__ingredient ingredient--tomato" src="assets/img/home-tomato.png" alt=""><img class="home__ingredient ingredient--lettuce" src="assets/img/home-lettuce.png" alt=""><img class="home__ingredient ingredient--potato" src="assets/img/home-potato.png" alt=""></div>
+    </div></section>
+    <section class="recipe section" id="recipe"><div class="container"><span class="eyebrow">Ingredientes de verdade</span><h2 class="section__title">A receita é simples</h2><p class="section__intro">Começamos com bons ingredientes e deixamos a grelha fazer o resto.</p>
+      <div class="recipe__container grid">
+        <article><img src="assets/img/recipe-bread.png" alt="Pão dourado e tostado"><h3>Pão tostado</h3><p>Macio por dentro, dourado no ponto certo.</p></article>
+        <article><img src="assets/img/recipe-meat.png" alt="Carne grelhada"><h3>Carne na grelha</h3><p>Suculenta, saborosa e bem tostada.</p></article>
+        <article><img src="assets/img/recipe-cheese.png" alt="Queijo derretido"><h3>Queijo derretido</h3><p>Cremoso e irresistível em cada dentada.</p></article>
+        <article><img src="assets/img/recipe-vegetable.png" alt="Alface e tomate frescos"><h3>Frescura crocante</h3><p>Alface fresca e tomate maduro para equilibrar.</p></article>
+        <article><img src="assets/img/recipe-sauces.png" alt="Molhos da casa"><h3>Molhos da casa</h3><p>Um toque especial para unir todos os sabores.</p></article>
+      </div>
+    </div></section>
+    <section class="popular section" id="popular"><div class="container"><span class="eyebrow">Os favoritos da casa</span><h2 class="section__title">Hambúrgueres irresistíveis</h2><p class="section__intro">Preparados na hora, com ingredientes frescos e muito sabor.</p><div class="popular__container grid">
+      <article class="popular__card"><img src="assets/img/popular-burger-chicken.png" alt="Hambúrguer de frango crocante" loading="lazy"><h3>Frango dourado</h3><p>Frango crocante, alface e molho fresco da casa.</p><button class="order-button" type="button" data-item="Frango dourado">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button></article>
+      <article class="popular__card"><img src="assets/img/popular-burger-meat.png" alt="Hambúrguer duplo de carne grelhada" loading="lazy"><h3>Duplo fumado</h3><p>Duas carnes na grelha, queijo derretido e pickles.</p><button class="order-button" type="button" data-item="Duplo fumado">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button></article>
+      <article class="popular__card"><img src="assets/img/popular-burger-grill.png" alt="Hambúrguer com carne grelhada no carvão" loading="lazy"><h3>Grelhado no ponto</h3><p>Sabor de grelha, tomate e folhas crocantes.</p><button class="order-button" type="button" data-item="Grelhado no ponto">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button></article>
+      <article class="popular__card"><img src="assets/img/popular-burger-classic.png" alt="Hambúrguer clássico com queijo" loading="lazy"><h3>O clássico</h3><p>Queijo, alface e tomate. Um favorito de sempre.</p><button class="order-button" type="button" data-item="O clássico">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button></article>
+      <article class="popular__card"><img src="assets/img/popular-burger-big.png" alt="Hambúrguer alto com várias camadas" loading="lazy"><h3>Grande tentação</h3><p>Camadas extra para os dias de grande apetite.</p><button class="order-button" type="button" data-item="Grande tentação">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button></article>
+    </div><p id="order-status" class="order-status" role="status" aria-live="polite"></p></div></section>
+    <section class="delivery section" id="delivery"><div class="delivery__container container grid"><div><span class="eyebrow">Sabor onde estiver</span><h2 class="section__title">O grelhador<br>vai até si</h2><p>Escolha os seus favoritos no menu e prepare o pedido. Esta demonstração guarda a seleção apenas nesta página e não recolhe pagamentos nem dados pessoais.</p><a href="#popular" class="button">Montar o meu pedido <i class="ri-arrow-up-line" aria-hidden="true"></i></a></div><img src="assets/img/delivery-burger.png" alt="Hambúrguer pronto para levar" loading="lazy"></div></section>
+    <section class="contact section" id="contact"><div class="container contact__container"><span class="eyebrow">Diga olá</span><h2 class="section__title">Falamos de hambúrgueres?</h2><p>Tem dúvidas sobre o menu? A sua seleção fica apenas nesta página; não é cobrado qualquer pagamento.</p><a class="button" href="#popular">Escolher um hambúrguer <i class="ri-arrow-right-line" aria-hidden="true"></i></a></div></section>
+  </main>
+  <footer class="footer"><div class="footer__container container"><a class="nav__logo" href="#home"><img src="assets/img/logo-burger.svg" alt=""> Good Mood</a><nav aria-label="Navegação do rodapé"><a href="#recipe">A receita</a><a href="#popular">Hambúrgueres</a><a href="#delivery">Entrega</a></nav><p>Feito com cuidado e um pouco mais de molho.</p><small>© <span data-year></span> Good Mood Burgers. Demonstração de restaurante.</small></div></footer>
+  <a class="scrollup" id="scroll-up" href="#home" aria-label="Voltar ao início"><i class="ri-arrow-up-line" aria-hidden="true"></i></a><script src="assets/js/main.js"></script>
+</body></html>
